@@ -36,7 +36,7 @@ To set up the project locally, follow these steps:
 3. **Install dependencies**: Run the following command to install all the required packages:
 
     ```bash
-    npm install --force
+    npm install 
     ```
 
 4. **Run the application**: Start the development server by running:
