@@ -24,19 +24,19 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    https://github.com/Bhavesh1513/BinanceCryptocurrency.git
+   https://github.com/Bhavesh1513/Fintarget-Binance-Cryptocurrency.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd WebBuzz
+    cd Fintarget-Binance-Cryptocurrency
     ```
 
 3. **Install dependencies**: Run the following command to install all the required packages:
 
     ```bash
-    npm install 
+    npm install
     ```
 
 4. **Run the application**: Start the development server by running:
@@ -56,18 +56,17 @@ To set up the project locally, follow these steps:
 **ErrorBoundary**: A component that wraps the app to catch and display any runtime errors.
 
 ## How It Works
--The app connects to Binance's WebSocket API to fetch real-time candlestick data for the selected cryptocurrency and interval.
--The candlestick data is saved to localStorage for offline use and restored on page reload.
--Users can select different coins and intervals from dropdowns.
--The TradingView widget renders the chart based on the selected coin and interval.
--LocalStorage Usage
--The app stores candlestick data for each selected coin and interval in localStorage.
--The last selected interval for each coin is also stored and restored on reload.
--Error Handling
--The app uses a custom ErrorBoundary to gracefully handle errors during rendering or WebSocket failures. When an error occurs, a message is    displayed, and users can reset the app.
+- The app connects to Binance's WebSocket API to fetch real-time candlestick data for the selected cryptocurrency and interval.
+- The candlestick data is saved to localStorage for offline use and restored on page reload.
+- Users can select different coins and intervals from dropdowns.
+- The TradingView widget renders the chart based on the selected coin and interval.
+- LocalStorage Usage
+- The app stores candlestick data for each selected coin and interval in localStorage.
+- The last selected interval for each coin is also stored and restored on reload.
+- Error Handling
+- The app uses a custom ErrorBoundary to gracefully handle errors during rendering or WebSocket failures. When an error occurs, a message is    displayed, and users can reset the app.
 
-
-6. **Project ScreenShot**
+## Project ScreenShot
 ![desktop](https://github.com/user-attachments/assets/29a656cb-6460-48d9-ac55-23fed9124279)
 ![mobile](https://github.com/user-attachments/assets/71973650-7d1e-4e43-bedc-929413f8e2ee)
 
